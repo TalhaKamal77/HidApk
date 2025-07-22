@@ -38,3 +38,45 @@ This Python script demonstrates how to **hide an APK file inside a PNG image** u
 git clone https://github.com/yourusername/apk-stegano-hider.git
 cd apk-stegano-hider
 pip install -r requirements.txt
+Requirements
+Python 3.x
+
+stegano
+
+pycryptodome
+
+You can install manually with:
+
+bash
+Copy
+Edit
+pip install stegano pycryptodome
+🛠️ Usage
+bash
+Copy
+Edit
+python apk_hider.py
+You'll be prompted to enter:
+
+APK file path
+
+PNG image file path (host image)
+
+Output PNG path (to save hidden image)
+
+Output APK path (for recovered APK)
+
+Password (used for AES encryption/decryption)
+
+📌 Example
+lua
+Copy
+Edit
+Enter APK file path: myapp.apk
+Enter PNG file path: cover.png
+Enter output PNG file path: secret_output.png
+Enter output APK file path: recovered.apk
+Enter password for encryption/decryption: mysecurepassword
+⚠️ Disclaimer
+This project is intended solely for educational and ethical purposes. Do not use it to distribute or hide malicious content. Misuse may be illegal and unethical. The authors are not responsible for any misuse of this tool.
+
